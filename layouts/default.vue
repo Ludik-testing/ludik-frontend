@@ -99,13 +99,13 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Welcome',
+          title: 'CRUD de tareas',
           to: '/'
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Filtrado y búsqueda con GraphQL',
+          to: '/graphql'
         }
       ],
       miniVariant: false,

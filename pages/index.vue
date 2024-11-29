@@ -11,7 +11,7 @@
 
       <button type="submit" class="button primary-button">Agregar tarea</button>
     </form>
-
+   
     <div v-if="editingTask" class="task-edit-form">
       <h2 class="subtitle">Editar Tarea</h2>
       <form @submit.prevent="updateTask">
@@ -34,6 +34,8 @@
         </div>
       </form>
     </div>
+
+
 
     <div v-if="tasks.length === 0" class="empty-message">
       <p>No hay tareas disponibles.</p>
